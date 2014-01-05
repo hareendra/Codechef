@@ -23,7 +23,7 @@ public class PLZLYKME {
             int c=Integer.parseInt(strAry[3]);
 
 
-            for(int j=2;j<d;j++)    {
+            for(int j=1;j<d;j++)    {
                   s=(c+1)*s;
                   if (s>=l)
                       break;
