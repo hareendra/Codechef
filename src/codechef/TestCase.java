@@ -1,24 +1,21 @@
 package codechef;
 
 import java.io.*;
-import java.util.*;
+import java.util.regex.*;
 
-public class TestCase {
-    public  static void  main(String[] args)    throws Exception{
-        File file = new File("out.txt");
-
-        // if file doesnt exists, then create it
-        if (!file.exists()) {
-            file.createNewFile();
-        }
-
-        FileWriter fw = new FileWriter(file.getAbsoluteFile());
-        BufferedWriter bw = new BufferedWriter(fw);
-
-        for(int i=0;i<6000000;i++)  {
-            bw.write("0");
-        }
-
-        bw.close();
+class Regex {
+    public static void main(String[] args){
+        A.method();
+        method();
     }
+    static class  A{
+        static void method(){
+            System.out.println(a);
+        }
+        private static int b=9;
+    }
+    static void method(){
+        System.out.println(A.b);
+    }
+    private static int a=8;
 }
