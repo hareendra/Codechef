@@ -18,7 +18,7 @@ class Comrades {
             int n=Integer.parseInt(in.readLine());
             int[] soldierAry=new int[n+1];
 
-            //Initialiazation
+            //Initialization
             soldierAry[0]=-1;
             String str = in.readLine();
             String[] strAry=str.split("\\s+");

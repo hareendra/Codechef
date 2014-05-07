@@ -1,0 +1,8 @@
+1) DigitProduct
+        Given an integer N, return an integer X, such that product of digits of X = N.
+
+2) ArrayToBST
+        Convert sorted array to binary search tree.
+
+3) BTToLinkedList
+        Convert binary tree to Doubly Linked List
