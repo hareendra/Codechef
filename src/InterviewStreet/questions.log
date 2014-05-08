@@ -6,3 +6,53 @@
 
 3) BTToLinkedList
         Convert binary tree to Doubly Linked List
+
+4) RotateMatrix
+        Rotate a matrix (both square and non square) by 90 degrees
+
+5) OverlappingRectangles
+        Check if two rectangles are overlapping in a 2-D plane.
+
+6) KMP algorithm
+
+7) ReverseNodes
+        Write a Program to reverse every k nodes of singly linked list without using extra space. Constraint: k>=2
+        Given a random node address in Singly linked list. Delete that node.
+
+8) CoinChange
+        Given denominations array and infinite supply , finding min number of coins
+
+9) UniqueChars
+        3 different solutions to check whether a string has unique characters
+
+10) NonRepeatedCharacters
+        Program to find first non repeating character in a string.
+        and repeating characters in lexicographic order.
+
+11) SubArraySum
+        Contiguous elements in an array whose sum is k.
+
+12) ViewOfBT
+        Left view of a bianry tree
+
+13) LevelSumDiff
+        Gives the difference of sum of odd and even levels
+
+14) MergeSortedLists
+
+15) ValidateParenthesis
+
+16) FirstCharacterEachWord
+        Print the first character of each word
+
+17) SameDigits
+        Next highest and next smallest numbers with same digits
+
+18) PallindromicString
+        Longest pallindrome within a string
+
+19) DifferenceElements
+        Elements with biggest difference and smallest difference
+
+20) BitonicArray
+        Maximum element in a bitonic array
