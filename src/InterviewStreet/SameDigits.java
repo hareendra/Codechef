@@ -5,8 +5,8 @@ package InterviewStreet;
  */
 public class SameDigits {
     public static void main(String pardeep[]) {
-            //nextHigestNumber(9531);
-            nextSmallestNumber(4123);
+            nextHigestNumber(9531);
+            nextSmallestNumber(1234);
     }
     private static void nextHigestNumber(int inputInt) {
         char inputStr[] = Integer.toString(inputInt).toCharArray();
@@ -48,7 +48,7 @@ public class SameDigits {
     private static void nextSmallestNumber(int inputInt) {
         char inputStr[] = Integer.toString(inputInt).toCharArray();
         String output = "";
-        int pivotIndex = -1, len = inputStr.length,  min = 99999999, replaceIndex = -1;
+        int pivotIndex = -1, len = inputStr.length, min = 99999999, replaceIndex = -1;
 
         for (int i = len - 1; i >= 0; i--) {
             if (i == 0) {//if no is already highest
@@ -56,8 +56,8 @@ public class SameDigits {
             }
             if (inputStr[i - 1] > inputStr[i] && i > 0) { //finding pivot element
                 pivotIndex = i - 1;
-                for (int j = pivotIndex + 1; j < len; j++) { // finding next highest of pivot element
-                    int d = inputStr[j] - inputStr[pivotIndex];
+                for (int j = pivotIndex + 1; j < len; j++) { // finding next smallest of pivot element
+                    int d = inputStr[pivotIndex]-inputStr[j] ;
                     if (d < min && d > 0) {
                         replaceIndex = j;
                         min = d;
