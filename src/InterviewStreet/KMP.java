@@ -8,7 +8,7 @@ public class KMP    {
     /** Failure array **/
     private static int[] failure;
 
-    public static void init(String text, String pat)   {
+    public static void searchString(String text, String pat)   {
         /** pre construct failure array for a pattern **/
         failure = new int[pat.length()];
         fail(pat);
@@ -65,6 +65,6 @@ public class KMP    {
         System.out.println("\nEnter Pattern\n");
         String pattern = br.readLine();
 
-        init(text, pattern);
+        searchString(text, pattern);
     }
 }

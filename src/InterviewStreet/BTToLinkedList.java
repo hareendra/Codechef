@@ -74,8 +74,7 @@ public class BTToLinkedList {
 
 
     /* Driver program to test above functions*/
-    public static void main(String[] args)
-    {
+    public static void main(String[] args)          {
         // Let us create the tree shown in above diagram
         Node root       = new Node(10);
         root.left       = new Node(12);
